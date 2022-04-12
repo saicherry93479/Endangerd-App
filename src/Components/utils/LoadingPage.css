@@ -1,0 +1,14 @@
+.loadingPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+.loadingPage > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.486);
+  letter-spacing: 1.2px;
+}

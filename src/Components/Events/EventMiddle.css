@@ -1,0 +1,50 @@
+.eventMiddle {
+  /* background-color: red; */
+  flex-basis: 60%;
+  overflow-y: auto;
+  height: 82vh;
+  padding: 40px 30px;
+}
+.post {
+  border-bottom: 1px solid rgb(211, 210, 210);
+  padding: 20px 0px;
+}
+.postTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.postTop > i {
+  color: crimson;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.post > .image {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post > .image > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.userName {
+  font-size: 18px;
+  color: var(--mainColor--);
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.post > p:nth-child(2) {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 10px;
+  letter-spacing: 1.1px;
+}
+.content {
+  font-size: 14px;
+  color: rgb(100, 99, 99);
+  margin: 5px 0px;
+}

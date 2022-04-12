@@ -1,0 +1,41 @@
+.customButton {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  color: var(--mainColor--);
+  /* max-width: max-content; */
+  /* width: 70%; */
+  /* margin-top: 20px; */
+  cursor: pointer;
+  background-color: aliceblue;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+  font-weight: 500;
+  transition: all 1s ease;
+
+  /* padding: 10px,
+        borderRadius: "10px",
+        marginTop: "20px",
+        cursor: "pointer", */
+}
+.inner {
+  height: 30px;
+  padding: 5px;
+  border-radius: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    #8037fa,
+    #9047f9,
+    #9e56f8,
+    #aa65f8,
+    #b573f7
+  );
+  background-color: var(--mainColor--);
+}

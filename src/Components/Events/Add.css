@@ -1,0 +1,90 @@
+.addTop {
+  /* background-color: red; */
+  height: 80vh;
+
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 90%;
+  padding: 20px;
+  height: 90%;
+  /* background-color: aliceblue; */
+  /* background-color: white; */
+  border-radius: 20px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 1px 4px 0px;
+  overflow-y: auto;
+}
+.addFile > h2 {
+  font-size: 20px;
+  color: rgb(61, 60, 60);
+  letter-spacing: 1.2px;
+  font-family: 600;
+}
+.addFile > div {
+  margin-top: 10px;
+  display: flex;
+  /* justify-content: ; */
+  align-items: center;
+  /* gap: 20px; */
+}
+.addFile > div > p {
+  margin-right: 20px;
+}
+.addFile > div > button {
+  outline: none;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: rgb(182, 4, 66);
+  cursor: pointer;
+  letter-spacing: 1.1px;
+  transition: all 1s ease;
+}
+.addFile > div > button:hover {
+  color: rgb(182, 4, 66);
+  border: 1px solid rgb(182, 4, 66);
+  font-weight: bold;
+  background-color: transparent;
+}
+.backForm {
+  border-radius: 50%;
+  /* margin: auto; */
+  display: flex;
+  height: 40px;
+  width: 40px;
+
+  cursor: pointer;
+
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: rgb(0 0 0 / 20%) 0px 1px 4px 0px;
+  margin-bottom: 10px;
+}
+.backForm:hover {
+  border: 1px solid var(--mainColor--);
+}
+.backForm > i {
+  color: var(--mainColor--);
+}
+.errorForm {
+  display: flex;
+  gap: 10px;
+}
+.errorFormTop {
+  margin-top: 20px;
+}
+.errorForm > p {
+  font-size: 12px;
+  color: black;
+  font-weight: 400;
+}
+
+.errorForm {
+  margin-bottom: 5px;
+}

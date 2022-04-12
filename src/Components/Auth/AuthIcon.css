@@ -1,0 +1,23 @@
+.iconMain {
+  background-color: var(--mainColor--);
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconMain::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 40px;
+  z-index: 10;
+  top: -2px;
+  left: 2px;
+
+  /* background-color: aquamarine; */
+  border: 1.5px solid black;
+}
