@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Endangerd-App/static/css/main.2bd07637.css",
+    "main.js": "/Endangerd-App/static/js/main.a42703fd.js",
+    "static/js/787.a944a07a.chunk.js": "/Endangerd-App/static/js/787.a944a07a.chunk.js",
+    "index.html": "/Endangerd-App/index.html",
+    "main.2bd07637.css.map": "/Endangerd-App/static/css/main.2bd07637.css.map",
+    "main.a42703fd.js.map": "/Endangerd-App/static/js/main.a42703fd.js.map",
+    "787.a944a07a.chunk.js.map": "/Endangerd-App/static/js/787.a944a07a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bd07637.css",
+    "static/js/main.a42703fd.js"
+  ]
+}
